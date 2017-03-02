@@ -50,7 +50,6 @@ a {
     float: left;
 }
 .left_menu li {
-    color: #656363;
     border: 1px solid #5e5e5e;
     border-top: none;
 }
@@ -58,8 +57,12 @@ a {
     border-top: 1px solid #5e5e5e;
 }
 .left_menu a {
+    color: #656363;
     display: block;
     padding: 20px 50px;
+}
+.left_menu li:hover {
+    background: #f9f9f9;
 }
 .left_menu a:hover {
     position: relative;
