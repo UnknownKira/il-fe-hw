@@ -18,28 +18,24 @@ a {
     font-family: 'OpenSans';
 }
 /*HEADER*/
-.header {
-    color: #4f4f4f;
-    font-size: 40px;
-    font-weight: bold;
-}
-.header+div {
-    margin: 30px 0;
+.logo+.header {
+    margin: 40px 0;
 }
 /*TOP MENU*/
 .top-menu {
     background: linear-gradient(to top, #444343, #5e5e5e);
     border: 1px solid #e1e1e1;
     display: flex;
-}
-.top-menu a {
-    padding: 15px;
-    color: #fff;
     font-size: 15px;
+}
+.top-menu-item {
+    padding: 15px 30px;
+    color: #fff;
+    display: block;
     border-left: 1px solid rgba(255,255,255, 0);
     border-right: 1px solid rgba(255,255,255, 0);
 }
-.top-menu a:hover {
+.top-menu-item:hover {
     background: linear-gradient(to top, #2e2e2e, #4a4a4a);
     border-left: 1px solid rgba(255,255,255, 1);
     border-right: 1px solid rgba(255,255,255, 1);
@@ -49,22 +45,22 @@ a {
     width: 240px;
     float: left;
 }
-.left-menu li {
+.left-menu-list {
     border: 1px solid #5e5e5e;
     border-top: none;
 }
-.left-menu li:first-child {
+.left-menu-list:first-child {
     border-top: 1px solid #5e5e5e;
 }
-.left-menu a {
+.left-menu-item {
     color: #656363;
     display: block;
     padding: 20px 50px;
 }
-.left-menu li:hover {
+.left-menu-list:hover {
     background: #f9f9f9;
 }
-.left-menu a:hover {
+.left-menu-item:hover {
     position: relative;
     left: 25px;
     color: #000;
@@ -94,13 +90,16 @@ a {
     background-color: #e1e1e1;
     font-size: 0;
 }
-.bottom-menu a {
+.bottom-menu-list {
+    display: inline-block;
+}
+.bottom-menu-item {
     padding: 10px 30px;
     color: #2c2c2c;
-    display: inline-block;
     font-size: 13px;
+    display: block;
 }
-.bottom-menu a:hover {
+.bottom-menu-item:hover {
     text-decoration: underline;
 }
 .copyright {
