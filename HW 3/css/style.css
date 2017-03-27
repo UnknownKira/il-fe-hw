@@ -1,6 +1,14 @@
 a{
     text-decoration: none;
 }
+@font-face {
+    font-family: 'MyriadPro';
+    src: url(../fonts/MyriadPro-Regular.otf);
+}
+@font-face {
+    font-family: 'DroidSans';
+    src: url(../fonts/DroidSans.ttf);
+}
 .wrapper {
     font-size: 18px;
     font-family: Arial;
@@ -50,7 +58,7 @@ a{
 .top-container__right-side-title {
     align-self: flex-start;
     text-shadow: -1px 2px 2px rgba(0, 0, 0, 0.6);
-    font-family: "Droid Sans";
+    font-family: "DroidSans";
     font-size: 26px;
     font-weight: 700;
     line-height: 39px;
@@ -69,7 +77,7 @@ a{
     border-radius: 3px;
     background-image: linear-gradient(to top, #4290c1 0%, #60a9d4 100%);
     color: #ffffff;
-    font-family: "Droid Sans";
+    font-family: "DroidSans";
     font-size: 28px;
     line-height: 26px;
 }
@@ -153,7 +161,7 @@ a{
     border-radius: 3px;
     background-color: #fff;
 }
-.mid-content__subscribe-block-email[value] {
+.mid-content__subscribe-block-email[placeholder] {
     color: #373737;
     font-size: 14px;
     padding-left: 10px;
@@ -171,7 +179,7 @@ a{
 }
 .mid-content__subscribe-block-submit[value] {
     color: #fff;
-    font-family: "Droid Sans";
+    font-family: "DroidSans";
     font-size: 14px;
 }
 .mid-content__main-box {
@@ -230,7 +238,7 @@ a{
 .mid-content__link {
     display: inline-block;
     color: #1d1d1d;
-    font-family: "Myriad Pro";
+    font-family: "MyriadPro";
     font-size: 16px;
     line-height: 20px;
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.33);
@@ -318,7 +326,7 @@ a{
     height: 32px;
     margin-bottom: 15px;
 }
-.footer__input[value] {
+.footer__input[placeholder] {
     padding-left: 20px;
 }
 .footer__textarea {
